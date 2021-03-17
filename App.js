@@ -55,7 +55,7 @@ const App = () => {
                 </Text>
                 <Text style={[styles.link, styles.mt12]}>
                   Edit your profile
-                 </Text>
+                </Text>
               </View>
               :
               <View testID="loginView">
@@ -100,7 +100,7 @@ const styles = StyleSheet.create({
     flex: 1
   },
   scrollView: {
-    backgroundColor: 'white',
+    backgroundColor: '#f5f5f5',
     padding: 16
   },
   heading: {
@@ -108,7 +108,7 @@ const styles = StyleSheet.create({
     fontSize: 18
   },
   textInput: {
-    borderColor: 'red',
+    borderColor: 'skyblue',
     borderWidth: 1,
     borderRadius: 4,
     paddingLeft: 10,
